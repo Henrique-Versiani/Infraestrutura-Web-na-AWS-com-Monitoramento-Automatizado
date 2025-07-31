@@ -93,7 +93,7 @@ Para garantir a alta disponibilidade do site, foi o seguinte script de monitoram
 Para automatizar o script, realizando o monitoramento a cada minuto, foi utilizado Cron.
 
 * **Edição na ferramenta crontab:**\
-    `nano crontab -e`
+    `crontab -e`
 
 * **Adição da seguinte linha de comando para definir o tempo:**\
     `* * * * * /caminho_para_o_arquivo/arquivo.sh`
