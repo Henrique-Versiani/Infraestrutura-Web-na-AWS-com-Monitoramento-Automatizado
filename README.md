@@ -42,7 +42,9 @@ Com a instância no ar, o servidor web foi instalado e configurado via SSH.
     sudo apt install nginx -y
     ```
 
-* **Criação da Página HTML** Para validar o funcionamento do servidor, uma página `index.html` customizada foi criada. Este arquivo serve como a "fachada" do site e foi colocado no diretório raiz do Nginx (`/var/www/html/`).
+* **Criação da Página HTML:** Para validar o funcionamento do servidor, uma página `index.html` customizada foi criada. Este arquivo serve como a "fachada" do site e foi colocado no diretório raiz do Nginx (`/var/www/html/`). Como este diretório é protegido, é necessário o uso do `sudo` para criar/editar arquivos aqui. 
+
+    * Para criação da página html foi usado o comando `sudo nano index.html`
     ```
     <!DOCTYPE html>
     <html lang="pt-br">
